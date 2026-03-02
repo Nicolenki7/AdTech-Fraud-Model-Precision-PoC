@@ -1,98 +1,62 @@
-# 📉 AdTech Fraud Model Evaluation: Precision & Business Impact
+# ⚠️ REPOSITORIO DEPRECAD
 
-**Model Evaluation | Precision-Recall Analysis | Business Impact Metrics | Python**
-
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python)](https://www.python.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn)](https://scikit-learn.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+**Este repositorio ya no se mantiene.**
 
 ---
 
-## 📋 Overview
+## 🔄 Nueva Ubicación
 
-AdTech fraud model evaluation focusing on **precision** and **business impact** rather than just accuracy. Demonstrates why precision-recall analysis matters more than accuracy for imbalanced fraud detection scenarios.
+Este proyecto fue **unificado** con `AdTech-Fraud-Detection-Pipeline-Snowflake-PoC` en una plataforma enterprise completa:
 
----
+### 🛡️ [AdTech-Fraud-Detection-Platform](https://github.com/Nicolenki7/AdTech-Fraud-Detection-Platform)
 
-## 💼 Business Impact
-
-- **False Positive Cost**: Quantifies business impact of flagging legitimate traffic
-- **Precision Focus**: Optimizes for actionable fraud detection
-- **ROI Analysis**: Connects model metrics to financial outcomes
-- **Threshold Optimization**: Balances precision vs recall for business goals
-
----
-
-## 🛠️ Technical Stack
-
-| Category | Technologies |
-| :--- | :--- |
-| **Language** | Python |
-| **Machine Learning** | scikit-learn |
-| **Analysis** | Pandas, NumPy, Jupyter |
-| **Visualization** | Matplotlib, Seaborn |
+**Nueva plataforma unificada incluye:**
+- ✅ Pipeline SQL multi-etapa (99.9% reducción de datos)
+- ✅ Snowpark Python UDFs para scoring
+- ✅ Dashboard Streamlit de 5 vistas
+- ✅ Matriz de confusión y métricas de negocio
+- ✅ Documentación completa
 
 ---
 
-## 🚀 Key Features
+## 📋 ¿Por qué se unificó?
 
-### Precision-Recall Analysis
-- Precision-Recall curves for imbalanced data
-- Threshold optimization for business goals
+Los dos repositorios originales tenían funcionalidades complementarias:
 
-### Business Impact Metrics
-- Cost of false positives (legitimate traffic flagged)
-- Cost of false negatives (fraud missed)
-- ROI calculation for model deployment
-
-### Model Comparison
-- Multiple algorithms evaluated
-- Business-metric-based selection
+| Repositorio Original | Contenido | Estado |
+|---------------------|-----------|--------|
+| `Pipeline-Snowflake-PoC` | Filtrado SQL, Feature Engineering | ⚠️ DEPRECATED |
+| Este repo (`Model-Precision-PoC`) | Evaluación de modelo, Métricas | ⚠️ DEPRECATED |
+| **`AdTech-Fraud-Detection-Platform`** | **Todo unificado** | ✅ ACTIVO |
 
 ---
 
-## 🔧 Setup & Installation
+## 🚀 Migración
 
-```bash
-# Clone the repository
-git clone https://github.com/Nicolenki7/AdTech-Fraud-Model-Precision-PoC.git
-cd AdTech-Fraud-Model-Precision-PoC
+Si estabas usando este repositorio:
 
-# Install dependencies
-pip install -r requirements.txt
+1. **Actualizar tu clone:**
+   ```bash
+   git clone https://github.com/Nicolenki7/AdTech-Fraud-Detection-Platform.git
+   ```
 
-# Run analysis
-jupyter notebook model_evaluation.ipynb
-```
-
----
-
-## 🔗 Links
-
-| Resource | URL |
-| :--- | :--- |
-| **Repository** | https://github.com/Nicolenki7/AdTech-Fraud-Model-Precision-PoC |
+2. **El nuevo repo tiene:**
+   - Todo el código de evaluación de modelo (`src/sql/03_model_evaluation.sql`)
+   - Matriz de confusión integrada en el dashboard
+   - Métricas de negocio (Precision, Recall, F1, ROI)
+   - Documentación completa
 
 ---
 
-## 📝 Resumen en Español
+## 📞 Contacto
 
-Evaluación de modelo de fraude AdTech enfocada en **precisión** e **impacto de negocio** en lugar de solo accuracy. Demuestra por qué el análisis precision-recall es más importante que accuracy para escenarios de detección de fraude con datos desbalanceados.
+**Nicolás Zalazar**  
+*Senior Data Engineer*
 
----
-
-## 📄 License
-
-MIT License
-
----
-
-## 👤 Author
-
-**Nicolás Zalazar** | Senior Data Engineer
-
-- GitHub: [@Nicolenki7](https://github.com/Nicolenki7)
+- 📧 zalazarn046@gmail.com
+- 🔗 [LinkedIn](https://www.linkedin.com/in/nicolas-zalazar-63340923a)
+- 🐙 [GitHub](https://github.com/Nicolenki7)
 
 ---
 
-*Last Updated: March 2026*
+*Deprecado: 2026-03-03 | Reemplazado por: AdTech-Fraud-Detection-Platform v2.0*
